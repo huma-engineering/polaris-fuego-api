@@ -6,10 +6,6 @@ authors = ["Jon Daly <jonathan.daly@sensynehealth.com>"]
 keywords = ["FHIR", "HL7", "Fuego"]
 repository = "https://github.com/draysontechnologies/dhos-fuego-api"
 
-[[tool.poetry.source]]
-name = "sensynehealth"
-url = "https://pypi.fury.io/sensynehealth/"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 fhirpy = "1.*"
