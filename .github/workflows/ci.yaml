@@ -85,7 +85,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/${{ env.GHCR_REPO_BASE }}/{{ env.SERVICE }}
+          images: ${{ env.REGISTRY }}/${{ env.GHCR_REPO_BASE }}/${{ env.SERVICE }}
           tags: |
             type=raw,value=dev
             type=sha
