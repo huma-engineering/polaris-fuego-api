@@ -76,7 +76,7 @@ services:
       - POSTGRES_MULTIPLE_DATABASES="dhos-fuego-api-db","dhos-hapi-fhir-api-db"
 
   dhos-hapi-fhir-api:
-    image: humagdmacr.azurecr.io/dhos/dhos-hapi-fhir-api:dev
+    image: ghcr.io/huma-engineering/dhos/dhos-hapi-fhir-api:dev
     container_name: "dhos-hapi-fhir-api"
     ports:
       - "80:8080"
